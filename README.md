@@ -1,5 +1,5 @@
 ---
-title: Graph Theory Lesson Plan v0.1
+title: Graph Theory Lesson Plan v0.2
 layout: post
 weight: 10
 hidden: false
@@ -42,10 +42,10 @@ Class Graph
 
 Prerequisite knowledge: See topic list and Learn.co material above. This activity should be used after students have finished the Learn.co material above.
 
-Prework: Instructor should send out this survey link to students a few hours before the lecture: https://forms.gle/EhiZgteayncD7Whv7. Give them a deadline to submit one hour before lecture. Download a csv of responses from Google Forms (https://docs.google.com/forms/d/1WYGnY0anHFJrYQfPRLpyOfl5HGXvhnyO_HldlI_pLeo/edit#responses) and save to student-facing repository before lecture.
+Prework: Instructor should modify the Our Class Graph survey to have the names of all students in the class, and then send the survey link to students a few hours before the lecture: https://forms.gle/EhiZgteayncD7Whv7. Instructor should give students a deadline to submit one hour before lecture. Download a csv of responses from Google Forms (https://docs.google.com/forms/d/1WYGnY0anHFJrYQfPRLpyOfl5HGXvhnyO_HldlI_pLeo/edit#responses) and save to student-facing repository before lecture. In the event that few students submitted responses, you can follow up with students or enter random responses so the activity can proceed as planned.
 
 #### Learning goals for this lesson:
-1. Use NetworkX to visualize and analyze a network
+1. Practice using NetworkX to visualize and analyze a network
 2. Describe networks using concepts such as connectivity, centrality and communities
 3. Use descriptive information about graphs to make real-world recommendations
 
@@ -86,15 +86,16 @@ _Learning Goals in sequence:_<br/>
 
 On "Do you all talk to each other?" slide, connect to their personal experience as a member of the class and the previous work they have done on graph theory. 
 
-**Step**: Learning Goals 1, 2 and 3, and Integration:  <br/>
-**Time**: 35 + 15 = 50 min
+**Step**: Learning Goals 1, 2 and 3, Integration and Assessment:  <br/>
+**Time**: 35 + 15 + 20 = 70 min
 
-Students work in pairs to complete tasks in Jupyter notebook related to the three goals and integrating the answers to generate recommendations. Pairs then join to form groups of 4 that discuss and prepare to share recommendations.
+Students work in pairs to complete tasks in Jupyter notebook related to the three goals and integrating the answers to generate recommendations. Pairs then join to form groups of 4 that discuss and prepare to share recommendations. During this time, teacher and coach should be circulating to informally assess student progress and offer guidance as needed.
+Some suggestions for how to help students get unstuck:
+- If they have difficulty with code, suggest that they look at the relevant notebook in Learn covering that material (links above)
+- If they have difficulty interpreting the questions, ask if they looked at the hints at the bottom of the notebook. If so, ask what they thought after reading them and help them navigate to a specific approach.
+- If they have difficulty creating a recommendation, suggest that they pick one metric from their analysis. Ask if there is anything that the teacher could do that would make that metric go up.
 
-**Step**: Assessment:  <br/>
-**Time**: 20 min
-
-Groups share out recommendations and supporting findings.
+Groups share out recommendations and supporting findings. Informal assessment through group presentations and responses to questions.
 
 **Step**: Reflection:  <br/>
 **Time**: 10 min
