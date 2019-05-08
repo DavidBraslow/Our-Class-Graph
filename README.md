@@ -1,5 +1,5 @@
 ---
-title: Graph Theory Lesson Plan v0.2
+title: Graph Theory Lesson Plan v0.3
 layout: post
 weight: 10
 hidden: false
@@ -42,7 +42,9 @@ Class Graph
 
 Prerequisite knowledge: See topic list and Learn.co material above. This activity should be used after students have finished the Learn.co material above.
 
-Prework: Instructor should modify the Our Class Graph survey to have the names of all students in the class, and then send the survey link to students a few hours before the lecture: https://forms.gle/EhiZgteayncD7Whv7. Instructor should give students a deadline to submit one hour before lecture. Download a csv of responses from Google Forms (https://docs.google.com/forms/d/1WYGnY0anHFJrYQfPRLpyOfl5HGXvhnyO_HldlI_pLeo/edit#responses) and save to student-facing repository before lecture. In the event that few students submitted responses, you can follow up with students or enter random responses so the activity can proceed as planned.
+Prework: Instructor should modify the Our Class Graph survey to have the names of all students in the class, and then send the survey link to students a few hours before the lecture: https://forms.gle/EhiZgteayncD7Whv7. Instructor should give students a deadline to submit one hour before lecture. Download a csv of responses from Google Forms (https://docs.google.com/forms/d/1WYGnY0anHFJrYQfPRLpyOfl5HGXvhnyO_HldlI_pLeo/edit#responses) and save to student-facing repository before lecture. In the event that few students submitted responses, you can follow up with students to get them to respond. 
+
+If the graph is not well connected, you may need to add connections to the graph to make the activity work as planned. You can do this by entering additional responses into the Google Form on behalf of students, with new connections in the new response. If you do this, let the class know that you've done this so that they're not surprised if they see their own names with unexpected connections. 
 
 #### Learning goals for this lesson:
 1. Practice using NetworkX to visualize and analyze a network
@@ -64,13 +66,14 @@ See "Notes About Today's Activity" Slide:
 
 ***
 
-
 ## Lesson Outline:
 
-See slides for additional detail. Notes on each slide provide presentation tips.
+The PowerPoint slides provide the structure for this lesson. Use these slides to structure the lesson, and follow the timings on Slide 4. Notes on each slide provide presentation tips.
+
+Below is an overview of the lesson as structured in the slides
 
 **Step**: Problem <br/>
-**Time**: 10 min
+**Time**: Slides 1-5: 10 min
 
 _Goal/Scenario:_<br/>
 Make recommendations to me, as your teacher, about how to improve class cohesion.
@@ -87,7 +90,11 @@ _Learning Goals in sequence:_<br/>
 On "Do you all talk to each other?" slide, connect to their personal experience as a member of the class and the previous work they have done on graph theory. 
 
 **Step**: Learning Goals 1, 2 and 3, Integration and Assessment:  <br/>
-**Time**: 35 + 15 + 20 = 70 min
+**Time**: 
+    Pair work: 35 min
+    Group work: 15 min
+    Presentations: 20 min
+    Total: 70 min
 
 Students work in pairs to complete tasks in Jupyter notebook related to the three goals and integrating the answers to generate recommendations. Pairs then join to form groups of 4 that discuss and prepare to share recommendations. During this time, teacher and coach should be circulating to informally assess student progress and offer guidance as needed.
 Some suggestions for how to help students get unstuck:
